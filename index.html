@@ -3,12 +3,299 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" type="favicon/x-icon" href="img/supertux.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Máster en CSS</title>
 </head>
 
 <body>
-    <h1>Hola mundo</h1>
+    <!-- Inicio de cabecera -->
+    <header id="header">
+        <div class="wrap">
+            <div id="logo">
+                <span class="gear">S</span>
+                <h3>blog</h3>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">formacion</a></li>
+                    <li><a href="#">contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Fin de cabecera -->
+
+    <!-- Inicio de contenido -->
+    <section class="wrap">
+        <section id="info">
+
+            <!-- Inicio de Banner -->
+            <div id="banner">
+                <h1>cursos de desarrollo web con Victor Robles web</h1>
+            </div>
+            <!-- Fin de Banner -->
+
+            <!-- Inicio de Tarjetas -->
+            <div id="cards">
+
+                <div class="card">
+                    <p class="icon">H</p>
+                    <h2 class="category">Desarrollo Web</h2>
+                    <p class="description">
+                        Aprende los principales lenguajes para desarrollo web
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">_</p>
+                    <h2 class="category">Sistemas operativos</h2>
+                    <p class="description">
+                        Aprende a administrar sistemas linux y windows
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">S</p>
+                    <h2 class="category">Hardware</h2>
+                    <p class="description">
+                        Conoce los entresijos del hardware
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">u</p>
+                    <h2 class="category">Redes e internet</h2>
+                    <p class="description">
+                        Aprende a configurar y administrar redes informaticas y servidores
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="icon">a</p>
+                    <h2 class="category">Bases de datos</h2>
+                    <p class="description">
+                        Aprende a montar y a administrar bases de datos
+                    </p>
+                </div>
+            </div>
+            <!-- Fin de Tarjetas -->
+        </section>
+
+        <!-- Barra lateral -->
+        <div class="clearfix"></div>
+        <aside id="lateral">
+
+            <h3>BUSCAR</h3>
+            <div id="search">
+                <form>
+                    <input type="text" />
+                    <input type="button" value="L" class="icon" />
+                </form>
+            </div>
+
+
+            <h3>LOGIN</h3>
+            <div id="login">
+                <form>
+                    <label id="user" class="icon">U</label>
+                    <input type="email" />
+
+                    <label id="password" class="icon">w</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar" />
+                    <input type="reset" value="Limpiar" />
+
+                    <a href="#">Registrate aquí</a>
+                    <a href="#">¿Has olvidado tu contraseña?</a>
+                </form>
+            </div>
+
+            <h3>REDES SOCIALES</h3>
+            <div id="social">
+                <div class="twuitter">
+                    <a href="#" class="icon">t</a>
+                    <p class="overlay">Twitter</p>
+                </div>
+                <div class="facebook">
+                    <a href="#" class="icon">f</a>
+                    <p class="overlay">Facebook</p>
+                </div>
+                <div class="youtube">
+                    <a href="#" class="icon">y</a>
+                    <p class="overlay">Youtube</p>
+                </div>
+            </div>
+
+            <h3>PATROCINADORES</h3>
+            <div id="sponsors"></div>
+        </aside>
+        <!-- Fin de la barra lateral -->
+
+        <!-- Inicio de articulos  -->
+        <section id="articles">
+            <h2>Ultimos articulos</h2>
+
+            <div class="clearfix"></div>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam voluptatibus distinctio,
+                    aut illo excepturi vitae obcaecati aspernatur sit cumque totam voluptatum autem facere accusantium
+                    adipisci quaerat fuga! Fugit, nobis!</p>
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam voluptatibus distinctio,
+                    aut illo excepturi vitae obcaecati aspernatur sit cumque totam voluptatum autem facere accusantium
+                    adipisci quaerat fuga! Fugit, nobis!</p>
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam voluptatibus distinctio,
+                    aut illo excepturi vitae obcaecati aspernatur sit cumque totam voluptatum autem facere accusantium
+                    adipisci quaerat fuga! Fugit, nobis!</p>
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam voluptatibus distinctio,
+                    aut illo excepturi vitae obcaecati aspernatur sit cumque totam voluptatum autem facere accusantium
+                    adipisci quaerat fuga! Fugit, nobis!</p>
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam voluptatibus distinctio,
+                    aut illo excepturi vitae obcaecati aspernatur sit cumque totam voluptatum autem facere accusantium
+                    adipisci quaerat fuga! Fugit, nobis!</p>
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Titulo del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam voluptatibus distinctio,
+                    aut illo excepturi vitae obcaecati aspernatur sit cumque totam voluptatum autem facere accusantium
+                    adipisci quaerat fuga! Fugit, nobis!</p>
+            </article>
+
+
+            <article id="blog">
+                <a href="#">Ir al blog</a>
+            </article>
+        </section>
+        <!-- Fin de articulos  -->
+    </section>
+
+    <div class="clearfix"></div>
+
+    <!-- Inicio pie de pagina -->
+    <footer>
+        <div class="wrap">
+
+            <div id="menu-footer">
+                <h5>MENÚ</h5>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">FORMACIÓN</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+
+            <div id="location">
+                <h5>¿DONDE ESTAMOS?</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7747.16358929934!2d-70.66097138059676!3d-33.45956635538139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c51a3181879b%3A0x5639a5fc5f40784!2sParque%20O&#39;Higgins!5e0!3m2!1ses-419!2scl!4v1590956308065!5m2!1ses-419!2scl"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+
+            <div id="info">
+                <h5>Desarrollado con</h5>
+                <p>
+                    <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png"
+                        alt="Creado con HTML y CSS" />
+                </p>
+
+
+                <h5>Optimizado para</h5>
+                <p id="browsers">
+
+                    <a href="#">
+                        <img src="img/firefox-icon.png" alt="Firefox" title="Firefox" />
+                    </a>
+
+                    <a href="#">
+                        <img src="img/chrome.png" alt="Chrome" title="Chrome" />
+                    </a>
+
+                    <a href="#">
+                        <img src="img/Opera_256x256.png" alt="Opera" title="Opera" />
+                    </a>
+
+                    <a href="#">
+                        <img src="img/safari.png" alt="Safari" title="Safari" />
+                    </a>
+
+                    <a href="#">
+                        <img src="img/android.png" alt="Android" title="Android" />
+                    </a>
+
+                    <a href="#">
+                        <img src="img/ios.png" alt="ios" title="ios" />
+                    </a>
+                </p>
+
+                <h5>Autor</h5>
+                <p>&copy; Juan Zabatta - web</p>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 
 </html>
