@@ -1,0 +1,315 @@
+@media(max-width:1250px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+    #banner h1{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+    }
+    .card{
+        width: 17%;
+        margin: 1.45%;
+    }
+    .card p{
+        display: block;
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    #articles{
+        width: 65%;
+    }
+    #articles article{
+        width: 97%;
+    }
+    footer{
+        height: 450px;
+    }
+    footer .wrap > div{
+        width: 24%;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
+    footer #browsers img{
+        width: 14%;
+    }
+    footer h5{
+        font-size: 30px;
+    }
+    footer iframe{
+        height: 250px;
+    }
+}
+
+
+@media(max-width:1080px){
+    .card .category{
+        font-size: 17px;
+    }
+    .card .description{
+        font-size: 14px;
+    }
+    #articles{
+        width: 61%;
+    }
+    footer{
+        height: 425px;
+    }
+}
+
+@media(max-width:970px){
+    #articles{
+        width:59%;
+    }
+    footer{
+        height: 400px;
+    }
+    footer h5{
+        font-size: 22px;
+    }
+    footer ul{
+        font-size: 20px;
+    }
+    footer ul li a{
+        height: 30px;
+    }
+    footer iframe{
+        height: 200px;
+    }
+}
+
+@media(max-width: 925px){    
+    #lateral{
+        width: 25%;
+    }
+    #lateral h3{
+        text-align: center;
+    }
+    #lateral input[type="text"]{
+        width:75%;
+    } 
+    #login{
+       text-align: center; 
+    }
+    #login, #social, #sponsors{
+        width: 95%;
+        height: auto;
+        min-height: 140px;
+        padding-bottom: 10px;        
+    }
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 65%;
+    }
+    #login #user,
+    #login #password{
+        margin-left: 24px;
+    }
+    #login input[type="button"],
+    #login input[type="submit"],
+    #login input[type="reset"],
+    #login button{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    } 
+    #login input[type="reset"]{
+        display: none;
+    }
+    #login a{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 97%;
+    }
+    #articles{
+        width:65%;
+    }
+}
+
+@media(max-width: 899px){
+    #lateral h3{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 799px){
+    #banner h1{
+        font-size: 29px;
+    }
+    .card{
+        height: auto;
+    }
+    .card .category{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+    .card .description{
+        display: none;
+    }
+}
+
+@media(max-width: 724px){
+    #header{
+        width: 100%;
+        height: 120px;
+        padding-top: 20px;
+    }
+    #logo{
+        float: none;
+        margin: 0px auto;
+    }
+    #menu{
+        clear: both;
+        float: none;
+        width: 440px; 
+        margin: 0px auto;
+    }
+    #lateral input[type="text"]{
+        width:70%;
+    } 
+    footer{
+        height: 440px;
+    }
+    footer #browsers img{
+        width: 20%;
+    }
+}
+
+@media(max-width: 660px){
+    #banner h1{
+        font-size: 25px;
+    }
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+        margin-top: 20px;
+    }
+    #lateral input[type="text"]{
+        width:93%;
+    } 
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 89%;
+    }
+    #articles{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+    footer{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    footer #menu-footer{
+        height: 300px;
+    }
+    footer .wrap > div{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    footer h5{
+        font-size: 25px;
+    }
+    footer iframe{
+        margin: 0px auto;
+        width: 250px;
+        height: 250px;
+    }
+    footer #info > p {
+        width: 60%;
+        height: auto;
+        margin: 0px auto;
+    }
+    footer #browsers img{
+        width: 14%;
+    }
+}
+
+@media(max-width: 600px){
+    #banner h1{
+        font-size: 20px;
+    }    
+    #lateral input[type="text"]{
+        width: 91.5%;
+    } 
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 88.5%;
+    }    
+}
+
+@media(max-width: 564px){
+    .card{      
+        width: 25%;      
+        margin: 3.9%;
+    }
+    .card:nth-child(4){      
+        width: 25%;      
+        margin: 3.9%;
+        margin-left: 20%;
+    }
+    footer{
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 475px){
+    #header{
+        width: 100%;
+        height: 275px;
+        padding-top: 10px;
+    }
+    #logo{
+        float: left;
+    }
+    #menu{
+        width: 100%;
+        height: 200px;
+        padding-top: 10px;
+    }
+   
+    #menu ul li{
+        width: 100%;
+        line-height: 50px;
+    }
+    #menu ul li a:hover{
+        transform: scale(1,1);
+    }
+    #banner{
+        height: 85px;
+    }
+    #banner h1{
+        font-size: 18px;
+    }
+    #lateral input[type="text"]{
+        width: 88%;
+    } 
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 82%;
+    }  
+    #articles article{
+        width: 89%;
+    }
+    #articles article h4{
+        margin-top: 20px;
+    }
+    #articles .data{
+        float: none;
+        margin: -10px;
+        border-radius: 0px;
+    }
+
+
+
+    footer{
+        padding-bottom: 0px;
+    }
+}
