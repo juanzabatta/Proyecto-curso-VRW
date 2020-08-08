@@ -1,6 +1,6 @@
 Página diseñada en el curso de HTML y CSS de Victor Robles
 
-Tecnologias usadas:
+Tecnologías usadas:
 - HTML
 - CSS
 
